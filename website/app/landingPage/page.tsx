@@ -37,13 +37,15 @@ export default function LandingPage() {
                             </span>
                         </h1>
                     </div>
+                    <h1 className="relative b-0 mt-48 animate-pulse text-3xl text-darkgreentext">
+                        <span className={quicksand1.className}>
+                        Scroll Down . . .
+                        </span>
+                    </h1>
                 </div>
                 <div className="relative right-0 select-none">
                     <Image src="/plants.svg" width={750} height={750} alt={"Plants"} />
                 </div>
-            </div>
-            <div className="bg-primary min-h-screen">
-
             </div>
         </main>
     );
