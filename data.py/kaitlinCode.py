@@ -6,7 +6,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import mean_squared_error, r2_score
 
-data = pd.read_csv('data.csv')
+data = pd.read_csv('data.py\data.csv')
 
 X = data[['PAT_ZIP', 'RACE']]
 y = data['LENGTH_OF_STAY']

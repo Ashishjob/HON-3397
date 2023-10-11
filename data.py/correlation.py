@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Read the dataset into a DataFrame
-df = pd.read_csv('sampleDataset.txt')
+df = pd.read_csv('data.py\sampleDataset.txt')
 
 # Select columns that you want to calculate correlations for
 selected_columns = [

@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Read the data from the text file
-df = pd.read_csv('sampleDataset.txt', sep=',')
+df = pd.read_csv('data.py\sampleDataset.txt', sep=',')
 
 # Calculate the correlation between Rain_Precip_value and O3_O3conc_value
 correlation = df['Rain_Precip_value'].corr(df['O3_O3conc_value'])

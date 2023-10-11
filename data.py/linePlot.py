@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Read the dataset into a DataFrame
-df = pd.read_csv('sampleDataset.txt')
+df = pd.read_csv('data.py\sampleDataset.txt')
 
 # Convert 'dateGMT' and 'timeGMT' columns to a single datetime column
 df['datetime'] = pd.to_datetime(df['dateGMT'] + ' ' + df['timeGMT'], format='%y/%m/%d %H:%M:%S')
