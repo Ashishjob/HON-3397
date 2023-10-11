@@ -29,3 +29,8 @@ body {
 .text-stroke-3 {
   -webkit-text-stroke: 3px rgb(var(--foreground-rgb));
 }
+
+::selection {
+  background: #03715D;
+  color: white;
+}
