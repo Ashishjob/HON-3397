@@ -17,10 +17,10 @@ export default function LandingPage() {
                 ENVIRONMENTAL DATA, POLICY, & JUSTICE
               </span>
             </h1>
-            <div className="bg-midgreen h-3 w-3 rounded-full mx-3"></div>
-            <div className="bg-darkgreen h-3 w-3 rounded-full mx-3"></div>
-            <div className="bg-olivegreen h-3 w-3 rounded-full mx-3"></div>
-            <div className="bg-white h-3 w-3 rounded-full mx-3"></div>
+            <div className="relative bg-midgreen h-3 w-3 rounded-full mx-3"></div>
+            <div className="relative bg-darkgreen h-3 w-3 rounded-full mx-3"></div>
+            <div className="relative bg-olivegreen h-3 w-3 rounded-full mx-3"></div>
+            <div className="relative bg-white h-3 w-3 rounded-full mx-3"></div>
           </div>
           <div className="flex flex-row items-center justify-between my-6">
             <h1 className="text-center text-9xl font-bold text-white">
@@ -37,13 +37,13 @@ export default function LandingPage() {
             </h1>
           </div>
         
-        <div className="flex flex-row relative m-0 mt-48 animate-pulse text-3xl text-darkgreentext">
+        <div className="flex flex-row relative mt-48 animate-pulse text-2xl text-darkgreentext">
           <span className={quicksand1.className}><h1 className="mr-2">Scroll Down</h1></span>
           <AiOutlineArrowDown />
         </div>
         </div>
         <div className="relative right-0 select-none">
-          <Image src="/Plants.svg" width={750} height={750} alt={"Plants"} />
+          <Image src="/Plants.svg" width={650} height={650} alt={"Plants"} />
         </div>
       </div>
     </main>

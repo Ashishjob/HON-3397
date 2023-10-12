@@ -30,6 +30,10 @@ body {
   -webkit-text-stroke: 3px rgb(var(--foreground-rgb));
 }
 
+.text-stroke-2 {
+  -webkit-text-stroke: 2px rgb(var(--foreground-rgb));
+}
+
 ::selection {
   background: #03715D;
   color: white;
