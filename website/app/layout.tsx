@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'HON-3397 Website',
   description: 'Environmental Data, Policy, & Justice Data Visualization Website',
   openGraph: {
-    images: './metadataImage.png',
+    images: './metaImage.png',
   }
 }
 
