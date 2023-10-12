@@ -125,7 +125,7 @@ export default function VisualizationPage() {
             </code>
           </pre>
           <button
-            className="rounded-lg hover:animate-pulse ml-12 mt-6 mb-12 w-full"
+            className="rounded-lg hover:animate-pulse ml-12 mt-6 mb-12 w-full select-none"
             onClick={handleClick}
             disabled={buttonClicked}
             style={{
@@ -140,7 +140,7 @@ export default function VisualizationPage() {
           </button>
         </div>
         {showImage && (
-          <div className="ml-16 flex flex-col items-center justify-center">
+          <div className="ml-16 flex flex-col items-center justify-center select-none">
             <Image
               className="rounded-xl"
               src="/O3_CO_LinePlot.png"
