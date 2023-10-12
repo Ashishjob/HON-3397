@@ -148,6 +148,9 @@ export default function VisualizationPage() {
               width={750}
               height={750}
             />
+            <h1 className="italic pt-4 text-lightgreen text-lg">
+              <span className={quicksand1.className}>Insert Caption</span>
+            </h1>
           </div>
        )}
       </div>
