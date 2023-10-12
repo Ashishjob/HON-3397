@@ -44,7 +44,7 @@ export default function LandingPage() {
                     </h1>
                 </div>
                 <div className="relative right-0 select-none">
-                    <Image src="/plants.svg" width={750} height={750} alt={"Plants"} />
+                    <Image src="/Plants.svg" width={750} height={750} alt={"Plants"} />
                 </div>
             </div>
         </main>
