@@ -19,11 +19,14 @@ export default function Home() {
         <div className="flex flex-row items-center justify-center bg-primary p-12">
           <Image src="/predictors.png" alt={"predictors"} width={1500} height={1500}></Image>
         </div>
-        <div className="flex flex-row items-center justify-center bg-primary pt-12">
+        <div className="flex flex-row items-center justify-center bg-navbarbg pt-12">
           <Image src="/scatterPlot.png" alt={"predictors"} width={2500} height={1500}></Image>
         </div>
         <div className="flex flex-row items-center justify-center bg-primary pt-12">
           <Image src="/MLinPY.png" alt={"predictors"} width={2500} height={1500}></Image>
+        </div>
+        <div className="flex flex-row items-center justify-center bg-navbarbg pt-12">
+          <Image src="/regressionKFold.png" alt={"predictors"} width={2500} height={1500}></Image>
         </div>
       </div>
       <div className="lg:hidden">

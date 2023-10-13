@@ -14,11 +14,11 @@ const NormalNavbar: React.FC = () => {
         <h1 className="items-center justify-center flex">|</h1>
         <h1 className="items-center justify-center flex">scatterplots</h1>
         <h1 className="items-center justify-center flex">|</h1>
-        <h1 className="items-center justify-center flex">predictors</h1>
+        <h1 className="items-center justify-center flex">ml libraries</h1>
         <h1 className="items-center justify-center flex">|</h1>
-        <h1 className="items-center justify-center flex">predictors</h1>
+        <h1 className="items-center justify-center flex">linear regression model</h1>
         <h1 className="items-center justify-center flex">|</h1>
-        <h1 className="items-center justify-center flex mr-24">code</h1>
+        <h1 className="items-center justify-center flex mr-24">k-fold</h1>
       </div>
     </nav>
   );
