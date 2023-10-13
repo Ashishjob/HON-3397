@@ -14,8 +14,11 @@ const config: Config = {
       'darkgreen': '#4E774F',
       'olivegreen': '#808000',
       'midgreen': '#9DC98E',
-      'primary': '#E6ECE1',
+      'primary': '#F4F1EA',
       'darkgreentext': "#174B41",
+      'navbarbg': '#F9F7F2',
+      'boxcolor': '#25A192',
+      'hon3397': '#39583A',
     },
     extend: {
       backgroundImage: {
