@@ -32,7 +32,7 @@ export default function Home() {
         <div className="flex flex-row items-center justify-center bg-navbarbg pt-12">
           <Image
             src="/scatterPlot.png"
-            alt={"predictors"}
+            alt={"scatterPlot"}
             width={2500}
             height={1500}
           ></Image>
@@ -40,7 +40,7 @@ export default function Home() {
         <div className="flex flex-row items-center justify-center bg-primary pt-12">
           <Image
             src="/MLinPY.png"
-            alt={"predictors"}
+            alt={"MLinPY"}
             width={2500}
             height={1500}
           ></Image>
@@ -48,7 +48,7 @@ export default function Home() {
         <div className="flex flex-row items-center justify-center bg-navbarbg pt-12">
           <Image
             src="/regressionKFold.png"
-            alt={"predictors"}
+            alt={"regressionKFold"}
             width={2500}
             height={1500}
           ></Image>
@@ -56,7 +56,7 @@ export default function Home() {
         <div className="flex flex-row items-center justify-center bg-navbarbg pt -12">
           <Image
             src="/metrics.png"
-            alt={"predictors"}
+            alt={"metrics"}
             width={2500}
             height={1500}
           ></Image>
@@ -64,7 +64,7 @@ export default function Home() {
         <div className="flex flex-row items-center justify-center bg-primary pt -12">
           <Image
             src="/trainedLM.png"
-            alt={"predictors"}
+            alt={"trainedLM"}
             width={2500}
             height={1500}
           ></Image>
@@ -72,7 +72,7 @@ export default function Home() {
         <div className="flex flex-row items-center justify-center bg-navbarbg pt -12">
           <Image
             src="/code.png"
-            alt={"predictors"}
+            alt={"code"}
             width={2500}
             height={1500}
           ></Image>
