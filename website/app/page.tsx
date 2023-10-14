@@ -15,7 +15,7 @@ export default function Home() {
         <LandingPage />
         <div className="flex flex-row items-center justify-center bg-navbarbg p-12">
           <Image
-            src="/chemicalStructures.svg"
+            src="/chemicalStructures.png"
             alt={"chemical structures"}
             width={1000}
             height={1000}
@@ -23,7 +23,7 @@ export default function Home() {
         </div>
         <div className="flex flex-row items-center justify-center bg-primary p-12">
           <Image
-            src="/predictors.svg"
+            src="/predictors.png"
             alt={"predictors"}
             width={1500}
             height={1500}
@@ -31,7 +31,7 @@ export default function Home() {
         </div>
         <div className="flex flex-row items-center justify-center bg-navbarbg pt-12">
           <Image
-            src="/scatterPlot.svg"
+            src="/scatterPlot.png"
             alt={"predictors"}
             width={2500}
             height={1500}
@@ -39,7 +39,7 @@ export default function Home() {
         </div>
         <div className="flex flex-row items-center justify-center bg-primary pt-12">
           <Image
-            src="/MLinPY.svg"
+            src="/MLinPY.png"
             alt={"predictors"}
             width={2500}
             height={1500}
@@ -47,7 +47,7 @@ export default function Home() {
         </div>
         <div className="flex flex-row items-center justify-center bg-navbarbg pt-12">
           <Image
-            src="/regressionKFold.svg"
+            src="/regressionKFold.png"
             alt={"predictors"}
             width={2500}
             height={1500}
@@ -55,7 +55,7 @@ export default function Home() {
         </div>
         <div className="flex flex-row items-center justify-center bg-navbarbg pt -12">
           <Image
-            src="/metrics.svg"
+            src="/metrics.png"
             alt={"predictors"}
             width={2500}
             height={1500}
@@ -63,7 +63,7 @@ export default function Home() {
         </div>
         <div className="flex flex-row items-center justify-center bg-primary pt -12">
           <Image
-            src="/trainedLM.svg"
+            src="/trainedLM.png"
             alt={"predictors"}
             width={2500}
             height={1500}
@@ -71,7 +71,7 @@ export default function Home() {
         </div>
         <div className="flex flex-row items-center justify-center bg-navbarbg pt -12">
           <Image
-            src="/code.svg"
+            src="/code.png"
             alt={"predictors"}
             width={2500}
             height={1500}
