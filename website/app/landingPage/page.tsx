@@ -8,7 +8,7 @@ const quicksand2 = Quicksand({ subsets: ["latin"], weight: "700" });
 
 export default function LandingPage() {
   return (
-    <main>
+    <main id="Home">
       <div className="flex flex-row justify-between">
         <div className="flex flex-col justify-center p-24">
           <div className="flex flex-row items-center justify-even my-6">
