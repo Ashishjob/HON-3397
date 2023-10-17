@@ -9,7 +9,7 @@ const quicksand2 = Quicksand({ subsets: ["latin"], weight: "700" });
 export default function AirPollutants() {
   return (
     <main id="AirPollutants">
-      <div className="flex flex-col justify-center items-center bg-navbarbg text-lightgreen text-3xl font-bold py-24">
+      <div className="flex flex-col justify-center items-center bg-navbarbg text-lightgreen text-4xl font-bold py-24">
         <span className={quicksand2.className}>
           Investigating Air Pollutants
         </span>

@@ -6,6 +6,7 @@ import MobileVisualizationPage from "./mobileDataVisualizationPage/page";
 import { Amaranth } from "next/font/google";
 import NormalNavbar from "@/components/NavBar";
 import AirPollutants from "./airPollutants/page";
+import Predictors from "./predictorsPage/page";
 
 const amaranth = Amaranth({ subsets: ["latin"], weight: "700" });
 
@@ -15,7 +16,7 @@ export default function Home() {
       <div className="hidden lg:block">
         <LandingPage />
         <AirPollutants />
-
+        <Predictors />
         {/* <div className="flex flex-row items-center justify-center bg-navbarbg p-12">
           <Image
             src="/chemicalStructures.png"
@@ -23,8 +24,8 @@ export default function Home() {
             width={1000}
             height={1000}
           ></Image>
-        </div> */}
-        
+        </div>
+
         <div className="flex flex-row items-center justify-center bg-primary p-12">
           <Image
             src="/predictors.png"
@@ -32,7 +33,7 @@ export default function Home() {
             width={1500}
             height={1500}
           ></Image>
-        </div>
+        </div> */}
         <div className="flex flex-row items-center justify-center bg-navbarbg pt-12">
           <Image
             src="/scatterPlot.png"

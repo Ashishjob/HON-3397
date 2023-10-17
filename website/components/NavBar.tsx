@@ -6,7 +6,7 @@ const NormalNavbar: React.FC = () => {
   return (
     <nav className="z-10 h-20 items-center fixed w-full">
       <div className=" h-12 flex justify-evenly text-darkgreentext border-none text-sm bg-navbarbg overflow-y-hidden py-10">
-        <a href={"/"} className="items-center justify-center flex">
+        <a href={"#Home"} className="items-center justify-center flex">
         home
         </a>
         <h1 className="items-center justify-center flex">|</h1>
@@ -14,7 +14,9 @@ const NormalNavbar: React.FC = () => {
         pollutants
         </a>
         <h1 className="items-center justify-center flex">|</h1>
-        <h1 className="items-center justify-center flex">predictors</h1>
+        <a href={"#Predictors"} className="items-center justify-center flex">
+        predictors
+        </a>
         <h1 className="items-center justify-center flex">|</h1>
         <h1 className="items-center justify-center flex">scatterplots</h1>
         <h1 className="items-center justify-center flex">|</h1>
