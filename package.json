@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "kepler.gl": "^2.5.5",
     "react-icons": "^4.11.0",
     "react-scroll": "^1.9.0"
   }
